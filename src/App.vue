@@ -1,5 +1,5 @@
 <template>
-  <HeaderVue/>
+  <router-view><HeaderVue/></router-view>
   <CatalogVue/>
   <FooterVue/>
 </template>

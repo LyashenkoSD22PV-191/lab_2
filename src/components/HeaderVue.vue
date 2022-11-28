@@ -21,7 +21,7 @@
             <img src="https://sun1-95.userapi.com/s/v1/if2/rlW7UPhcURX8Zla8KgNlFX7e-MkBpQ3IU2zfgZQsTNCg5S_f5fGVYeUuY89JX8gn98F-xf9ZRU2864KbtBdULXe-.jpg?size=200x200&quality=96&crop=16,35,200,200&ava=1" alt="mdo" width="32" height="32" class="rounded-circle">
           </a>
           <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-            <li><a class="dropdown-item" href="#">Мой профиль</a></li>
+            <li><router-link :to="{name: 'Login'}"><a class="dropdown-item" href="#">Мой профиль</a></router-link></li>
             <li><a class="dropdown-item" href="#">Корзина</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Выйти</a></li>
